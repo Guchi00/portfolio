@@ -1,0 +1,77 @@
+.myHomeIsMyLogin {
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(225, 225, 225, 0.5), rgba(225, 325, 225, 0.5)), url("https://media.istockphoto.com/photos/portrait-of-her-she-nice-charming-cute-attractive-lovely-cheerful-picture-id1157105049?b=1&k=20&m=1157105049&s=170667a&w=0&h=GDpjGzUj0iKFYncMuAcYr1NTv_gIp2wsccZm_x0U_hI=");
+    background-size: cover;
+}
+
+.label {
+    font-size: 14px;
+    color: #303030;
+    width: 265px;
+}
+
+.form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 25px; */
+    /* height: 380px; */
+    /* border: solid 1px blue */
+}
+
+ .email {
+    padding: 10px;
+    border: none;
+    width: 250px;
+    height: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border: solid 0.5px rgb(226, 224, 224);
+ }
+
+.password {
+    padding: 10px;
+    border: none;
+    width: 250px;
+    height: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border: solid 0.5px rgb(226, 224, 224);
+    background-color: #ffffff;
+}
+
+.check-box {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.fogot-password {
+    font-size: small;
+    cursor: pointer;
+    margin-left: 50px;
+    color: orange;
+}
+
+.get-started {
+    height: 56px;
+    width: 300px;
+    border-radius: 30px;
+    margin-top: 30px;
+    border: solid 1px orange;
+    background-color: orange;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.inputRequired {
+    position: absolute;
+    bottom: 200px;
+    color: red;
+}

@@ -1,0 +1,142 @@
+.currentJob {
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.h1CurrentJob {
+    font-size: 18px;
+    width:68%;
+    font-weight: 500;
+    color: orange;
+    border: solid 1px orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    /* background-color: orange; */
+}
+
+.splitParentDiv {
+    width: 100%;
+    height: 220vh;
+    display: flex;
+    overflow-x: hidden;
+    margin-bottom: 70px;
+}
+
+.bigSize {
+    width: 70%;
+    border: solid 1px orange;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jobD {
+    font-size: 19px;
+    font-weight: 800;
+    width: 480px;
+}
+
+.h3 {
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    margin-right: 40px;
+}
+
+.smallSize {
+    width: 30%;
+    border: solid 1px rgb(206, 201, 196);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 50px;
+    margin-top: 0px;
+}
+
+.jobInfo {
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.h3-style {
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.aboutMe {
+    font-size: 19px;
+    font-weight: 800;
+    width: 480px;
+    margin-top: 60px;
+    text-decoration: underline;
+}
+
+.aboutMeText {
+    font-size: 16px;
+    font-weight: 300;
+    width: 670px;
+    margin-left: 185px;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 2;
+    z-index: -1;
+    margin-top: 0px;
+}
+
+.myProfile {
+    font-size: 19px;
+    font-weight: 800;
+    width: 480px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    text-decoration:underline;
+}
+
+.myProfileText {
+    font-size: 16px;
+    font-weight: 300;
+    width: 520px;
+    margin-left: 80px;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 2;
+    z-index: -1;
+    margin-top: 0px;
+    /* border: solid 1px blue; */
+}
+
+.ugochiCommittedMsg {
+    font-size: 16px;
+    font-weight: 300;
+    width: 670px;
+    margin-left: 185px;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 2;
+    z-index: -1;
+    color: #303030;
+    margin-top: 90px;
+}
+
+.resumeHireMeBtn {
+    height: 50px;
+    width: 170px;
+    border-radius: 5px;
+    margin: 100px;
+    margin-right: 380px;
+    background-color: orange;
+    font-size: 19px;
+    border: solid 1px orange;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+}
+
